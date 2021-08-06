@@ -1,18 +1,31 @@
 <!DOCTYPE html>
-<html lnag="ja">
-    <head>
-        <style type="text/css">
-            a:link {
-                color: black;
-            }
-            a:visited{
-                color: red;　
-            }
-        </style>
-        <!-- コメントの書き方 -->
-    </head>
-    <body>
-        <h1>Hoge</h1>
-        <a href="index.html">Back</a> <!-- コメントの書き方 -->
-    </body>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    const user = ['犬','猫','牛','ライオン','豚'];
+    user.forEach(name=> {
+       switch(name) {
+           case '犬':
+               console.log('ワンワン！');
+               break;
+           case '猫':
+               console.log('にゃーん！');
+               break;
+           case '牛':
+               console.log('モー！');
+               break;
+           case 'ライオン':
+               console.log('ガオー！');
+               break;
+           case '豚':
+               console.log('ブー！');
+               break;
+       } 
+    });
+    </script>
+  </body>
 </html>
